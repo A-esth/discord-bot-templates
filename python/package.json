@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start-minimal": "nodemon --exec py ./minimal-bot/bot.py ",
+    "start-command": "nodemon --exec py ./command-bot/bot.py"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
